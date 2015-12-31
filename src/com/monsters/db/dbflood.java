@@ -12,6 +12,7 @@ public class dbflood {
 
     public static void main(String[] args) {
         printWelcomeMessage();
+        printUsageMessage();
 
         // Load config file, if file not exist then create a new one and exit program.
         File fileConfigFile = new File(CONFIG_FILE_PATH);
